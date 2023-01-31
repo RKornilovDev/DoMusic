@@ -47,6 +47,7 @@ class MainActivity : BaseActivity(), UIMainCommunicationListener,UIMainUpdate,
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val a = "Asdsad"
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setupViews()
